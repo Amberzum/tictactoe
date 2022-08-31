@@ -1,0 +1,21 @@
+main button {
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  font-size: 56px;
+}
+
+main {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+h1 {
+  text-align: center;
+}
